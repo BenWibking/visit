@@ -139,6 +139,7 @@ function build_openpmd_api
     cfg_opts="${cfg_opts} -DopenPMD_USE_MPI=OFF"
     if [[ "$DO_HDF5" == "yes" ]] ; then
         cfg_opts="${cfg_opts} -DopenPMD_USE_HDF5=ON"
+	cfg_opts="${cfg_opts} -DCMAKE_PREFIX_PATH=${HDF5_INSTALL_DIR}"
     else
         cfg_opts="${cfg_opts} -DopenPMD_USE_HDF5=OFF"
     fi
