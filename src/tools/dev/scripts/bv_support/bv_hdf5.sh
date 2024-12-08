@@ -1,3 +1,6 @@
+# TODO(bwibking): build HDF5 using CMake
+# openPMD-api requires HDF5 to be build using CMake :/
+
 function bv_hdf5_initialize
 {
     export DO_HDF5="no"
