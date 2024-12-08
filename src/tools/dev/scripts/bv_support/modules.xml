@@ -37,6 +37,7 @@
             <lib name="nektarpp"/>
             <lib name="netcdf"/>
             <lib name="openexr"/>
+            <lib name="openpmd_api"/>
             <lib name="osmesa"/>
             <lib name="ospray"/>
             <lib name="pidx"/>
@@ -82,7 +83,8 @@
             <lib name="moab"/>
             <lib name="netcdf"/>
             <lib name="openexr"/>
-            <lib name="ospray"/>
+            <lib name="openpmd_api"/>
+	    <lib name="ospray"/>
             <lib name="pidx"/>
             <lib name="pyside"/>
             <lib name="qwt"/>
